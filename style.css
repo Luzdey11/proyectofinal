@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+ /*--empieza presentacion pagina--*/
+.banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/fondo.webp);
+}
+
+.sombra{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    margin: auto;
+}
+
+.sombra hr{
+    border-top: 1px solid white;
+}
+
+.sombra h1{
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+.mery-cont-banner-link{
+    margin: 15px;
+    position: relative;
+
+}
+
+.banner-link a{
+    background-color: #6eff61;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.banner-link a:hover{
+    background-color: #2ad436;
+    color: black;
+}
+
+/*--termina presentacion pagina--*/
+
+/*empieza sobre mi*/
+.luz {
+  text-align: left;
+  justify-content: end;
+  align-items: flex-end;
+  padding: 2vh;  
+}
+
+.texto{
+  padding: 2vh;
+  text-align: justify;
+}
+
+/*termina sobre mi*/
+
+/* empiezan iconos*/
+.cajaprueba1{
+    height: 23vh;
+    background-color: rgb(240, 240, 240);
+    background-image: url(images/icono2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.cajaprueba2{
+    height: 23vh;
+    background-color: rgb(240, 240, 240);
+    background-image: url(images/icono.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.cajaprueba3{
+    height: 23vh;
+    background-color: rgb(240, 240, 240);
+    background-image: url(images/icono3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.cajaprueba4{
+    height: 23vh;
+    background-color: rgb(240, 240, 240);
+    background-image: url(images/icono4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* termina iconos*/
+
+
+
+/*empieza galeria*/
+.item img{
+    height: 75vh;
+
+}
+.item img:hover{
+    border: 2vh solid transparent;
+    
+}
+/*termina galeria*/
+
+
+
+
+h3{
+   text-align: center;
+}
+
+.embed-responsive-item{
+   padding: auto;
+   height: 400px;
+   width: 400px;
+}
+
+/*banner publicidad*/
+.publicidad{
+    height: 90vh;
+    background-image: url(images/publicidad.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*termina banner publicidad*/
+
+
+ /*--empieza caja contacto--*/
+.cajacontacto1{
+    background-size: cover;
+    background-color: rgb(240, 240, 240);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    height: 90vh;
+    padding: 8vh;
+    
+}
+
+
+.cajacontacto{
+    background-size: cover;
+    background-color: rgb(240, 240, 240);
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    height: 90vh;
+    padding: 8vh;
+    
+}
+.textocontactame{
+    font-size: 9vh;
+}
+
+.imagensuculenta{
+    display: flex;
+    position: relative;
+    height: 40vh;
+    top: 25vh;
+    left: -45vh;
+
+}
+form{
+    position: relative;
+    top: 20vh;
+    left: 10vh;
+    
+}
+
+/*--termina caja contacto--*/
+
+
+/*empieza footer*/
+.cajaFooter{
+    background-color: rgb(230, 230, 230);
+    height: 45vh;
+    padding: 4vh;
+    
+    text-align: center;
+
+}
+
+.textofooter{
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+.textofooter2{
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.facebook{
+    padding: 1rem;
+
+}
+
+.email{
+    padding: 1rem;
+
+}
+
+.instagram{
+    padding: 1rem;
+
+}
+.whatsapp{
+    padding: 1rem;
+
+}
+
+
+/*termina footer*/
+
+
+
+
+
+
